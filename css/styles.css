@@ -1,39 +1,51 @@
 body {
-    background: black;
+    background-image: url('https://images.app.goo.gl/akLcnHhPCRhbMwCc6');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    color: white;
 }
+
 main {
-    width: 80%;    
+    width: 80%;
     height: 700px;
     margin: auto;
     margin-top: 30px;
+    background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semi-transparente para melhorar a legibilidade do texto */
+    padding: 20px;
+    border-radius: 10px;
 }
-.img {
-    width: 70px;
-}
+
 .main {
     display: flex;
-    color: green;  
-    justify-content: center;  
+    color: green;
+    justify-content: center;
 }
+
 a {
     text-decoration: none;
 }
-.saudacao{    
+
+.saudacao {
     margin-bottom: 120px;
     color: blue;
-    font-size: 20px;    
+    font-size: 20px;
 }
-.estetica{
-   background: green;
-   padding: 20px;
-   color: aliceblue;
-   border-radius: 15px;
-   margin-right: 50px;
-   font-size: 20px;
-   cursor: pointer;
+
+.estetica {
+    background: green;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 15px;
+    margin-right: 50px;
+    font-size: 20px;
+    cursor: pointer;
 }
-.barbearia{
+
+.barbearia {
     background: blue;
     padding: 20px;
     color: aliceblue;
@@ -42,20 +54,20 @@ a {
     font-size: 20px;
     cursor: pointer;
 }
-.h41 {  
+
+.h41 {
     height: 70px;
     font-size: 30px;
     color: red;
 }
-.futter{
-    width: 70px;
-}
-.futter {
+
+.futter1 {
     width: 170px;
     background: black;
     height: 150px;
     border: 1px solid pink;
 }
+
 .links {
     height: 70px;
 }
