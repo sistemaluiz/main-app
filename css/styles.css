@@ -1,48 +1,65 @@
 body {
-    background: url('https://images.app.goo.gl/akLcnHhPCRhbMwCc6') no-repeat center center fixed;
-    background-size: cover;
-    text-align: center;
     margin: 0;
     padding: 0;
-    height: 100vh; /* Altura da tela inteira */
-    color: white; /* Ajustar a cor do texto para melhorar a visibilidade */
+    height: 100vh; /* Altura mínima de 100% da tela */
+    min-height: 100vh; /* Garante que o fundo cubra toda a tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Imagem de fundo */
+    background: url('./Captura\ de\ tela\ 2024-09-11\ 151223.png') no-repeat center center fixed;
+    background-size: cover; /* Garante que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem */
+}
+
+/* Ajustes para telas menores (opcional) */
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Ajusta para garantir que a imagem cubra a tela */
+    }
 }
 
 main {
     width: 80%;    
     height: 100%; /* Ajustar para ocupar a altura toda */
-    margin: auto;
-    margin-top: 30px;
+    position: relative; /* Permite sobreposição do conteúdo */
+    color: white; /* Ajustar a cor para contraste com o fundo */
+    text-align: center;
 }
 
 .main {
     display: flex;
-    color: green;  
     justify-content: center;  
+    color: green;  
 }
 
 .saudacao {
     margin-bottom: 120px;
+    font-size: 20px;
     color: blue;
-    font-size: 20px;    
 }
 
 .estetica {
-   background: green;
-   padding: 20px;
-   color: aliceblue;
-   border-radius: 15px;
-   margin-right: 50px;
-   font-size: 20px;
-   cursor: pointer;
+    background: green;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 15px;
+    margin-right: 50px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .h41 {  
     height: 70px;
     font-size: 30px;
     color: red;
+    margin-bottom: 70px;
 }
 
 .links {
     height: 70px;
+}
+a{
+    text-decoration: none;
 }
