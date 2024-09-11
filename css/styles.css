@@ -43,7 +43,7 @@ main {
 .estetica {
     background: green;
     padding: 20px;
-    color: aliceblue;
+    color: red;
     border-radius: 15px;
     margin-right: 50px;
     font-size: 20px;
@@ -62,5 +62,4 @@ main {
 }
 a{
     text-decoration: none;
-    backgound: red;
 }
