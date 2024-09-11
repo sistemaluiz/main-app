@@ -1,71 +1,46 @@
 body {
-    background-image: url('https://images.app.goo.gl/akLcnHhPCRhbMwCc6');
+    background: url('https://images.app.goo.gl/akLcnHhPCRhbMwCc6') no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    text-align: center;
     margin: 0;
     padding: 0;
-    text-align: center;
-    color: white;
+    height: 100vh; /* Altura da tela inteira */
+    color: white; /* Ajustar a cor do texto para melhorar a visibilidade */
 }
 
 main {
-    width: 80%;
-    height: 700px;
+    width: 80%;    
+    height: 100%; /* Ajustar para ocupar a altura toda */
     margin: auto;
     margin-top: 30px;
-    background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semi-transparente para melhorar a legibilidade do texto */
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .main {
     display: flex;
-    color: green;
-    justify-content: center;
-}
-
-a {
-    text-decoration: none;
+    color: green;  
+    justify-content: center;  
 }
 
 .saudacao {
     margin-bottom: 120px;
     color: blue;
-    font-size: 20px;
+    font-size: 20px;    
 }
 
 .estetica {
-    background: green;
-    padding: 20px;
-    color: aliceblue;
-    border-radius: 15px;
-    margin-right: 50px;
-    font-size: 20px;
-    cursor: pointer;
+   background: green;
+   padding: 20px;
+   color: aliceblue;
+   border-radius: 15px;
+   margin-right: 50px;
+   font-size: 20px;
+   cursor: pointer;
 }
 
-.barbearia {
-    background: blue;
-    padding: 20px;
-    color: aliceblue;
-    border-radius: 15px;
-    margin-left: 50px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.h41 {
+.h41 {  
     height: 70px;
     font-size: 30px;
     color: red;
-}
-
-.futter1 {
-    width: 170px;
-    background: black;
-    height: 150px;
-    border: 1px solid pink;
 }
 
 .links {
